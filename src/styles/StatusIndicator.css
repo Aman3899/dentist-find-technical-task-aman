@@ -1,0 +1,49 @@
+.status-section {
+    padding: 16px;
+    background-color: #f9fafb;
+    border-radius: 8px;
+    border: 1px solid #e5e7eb;
+}
+
+.status-indicator {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.status-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+.status-label {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+}
+
+.status-high .status-dot {
+    background-color: #10b981;
+}
+
+.status-high .status-label {
+    color: #059669;
+}
+
+.status-risk .status-dot {
+    background-color: #ef4444;
+}
+
+.status-risk .status-label {
+    color: #dc2626;
+}
+
+.status-stable .status-dot {
+    background-color: #6b7280;
+}
+
+.status-stable .status-label {
+    color: #4b5563;
+}

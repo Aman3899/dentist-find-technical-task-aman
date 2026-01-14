@@ -5,10 +5,10 @@ A React + TypeScript component for displaying dental practice metrics with a cle
 ## Screenshots
 
 ### Desktop View
-![Desktop View](./desktop-view.png)
+![Desktop View](./public/desktop-view.png)
 
 ### Mobile View
-![Mobile View](./mobile-view.png)
+![Mobile View](./public/mobile-view.png)
 
 ## Quick Start
 
